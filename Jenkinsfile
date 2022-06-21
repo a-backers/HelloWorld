@@ -3,7 +3,7 @@ pipeline {
     
     environment {
        DISABLE_AUTH = 'true'
-       JAVA_HOME = 'c:\\Program Files\\Java\\jdk-11.0.15'
+       JAVA_HOME = 'c:\\Program Files\\Java\\jdk1.8.0_331'
     }
 
     stages {
