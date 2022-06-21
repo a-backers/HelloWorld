@@ -1,5 +1,10 @@
 pipeline {
     agent any
+    
+    environment {
+       DISABLE_AUTH = 'true'
+       JAVA_HOME = 'c:\Progem Files\Java\jdk-11.0.15'
+    }
 
     stages {
         stage('Build') {
